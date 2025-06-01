@@ -1,5 +1,4 @@
 {
-  "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
     "module": "NodeNext",
@@ -11,9 +10,8 @@
     "skipLibCheck": true,
     "baseUrl": "../",
     "paths": {
-      "@/*": ["client/src/*"],
       "@shared/*": ["shared/*"]
     }
   },
-  "include": ["./**/*.ts", "../shared/**/*.ts"]
+  "include": ["./**/*.ts", "shared/**/*.ts"]
 }
